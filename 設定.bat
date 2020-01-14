@@ -1,4 +1,4 @@
-@ecgo off
+@echo off
 
 setx Path "%~dp0"
 
