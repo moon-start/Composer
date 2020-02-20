@@ -8,4 +8,4 @@ rem php artisan make:controller ProductionController --resource
 
 
 php artisan make:controller %1Controller
-notepad  app\Http\Controllers\%1Controller.php
+rem notepad  app\Http\Controllers\%1Controller.php

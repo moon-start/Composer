@@ -1,6 +1,8 @@
-addAHC.bat
 addAHR.bat
 addDM.bat
+add_Controller.bat
+add_ControllerModel.bat
+add_DB.bat
 dirdir.bat
 dirT.bat
 dirX.bat
@@ -8,7 +10,6 @@ dirXX.bat
 list.txt
 ls.bat
 lsDM.bat
-model.bat
 nano.bat
 nanoDM.bat
 nanoRV.bat
