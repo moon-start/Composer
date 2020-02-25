@@ -17,9 +17,13 @@ rem git clone git@github.com:moon-start/%A%.git
 
 
 cd %A%
+rem 加快
+git config --global https.proxy 'socks5://127.0.0.1:1080' 
+git config --global http.proxy  'socks5://127.0.0.1:1080'
 
 
-rem  建立一個空的...
+
+rem  建立一個空的...(清空歷史)
 git checkout --orphan %B%
 git add .
 rem  comm時...會切換至 分支
@@ -39,6 +43,11 @@ rem 切回原本的
 git checkout master
 git branch -D %B%
 
+
+
+rem 停止
+git config --global --unset https.proxy
+git config --global --unset http.proxy
 
 
 echo.
