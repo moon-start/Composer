@@ -1,4 +1,4 @@
-@echo OFF  && chcp 65001
+@echo off  && chcp 65001
 cls
 set QQ=%1
 if not defined QQ ( goto _qq )
@@ -16,11 +16,11 @@ findstr /n  "." %~dp0\list.txt
 
 echo.
 echo.
-set /p A= in (編號) ?: 
+set /p A= in (編號) ?:  
 
 set start=%A%
 echo.
-rem ##########set /p B=in (第一個參數) ?: 
+rem ##########set /p B=in (第一個參數) ?:  
 cls
 set "lines=1"
 set/a i=-1,start-=1
