@@ -13,10 +13,14 @@ echo.
 cd %userprofile%\Desktop\
 
 
-	
-git clone -b  %B%  --single-branch  git@github.com:moon-start/%A%.git "%A%$%B%$"
-cd %A%
 
+mkdir "[分支]%B%"
+cd    "[分支]%B%"
+
+	
+git clone -b  %B%  --single-branch  git@github.com:moon-start/%A%.git "%A%"
+
+cd %A%
 
 
 echo.

@@ -1,6 +1,6 @@
 @echo OFF 
 
-set QQ=git
+set QQ=git--
 if not defined QQ ( goto _qq )
 
 
