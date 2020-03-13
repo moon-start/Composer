@@ -2,3 +2,4 @@ git--D-刪除-子儲存庫.bat
 git--NC-下載.bat
 git--NC-新增.bat
 git--NC-更新.bat
+git--版本.bat
